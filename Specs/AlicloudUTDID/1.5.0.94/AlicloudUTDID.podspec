@@ -5,6 +5,6 @@
   s.summary      = "Aliyun Mobile Service UTDID iOS SDK."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/utdid/1.5.0.94/utdid.zip" }
+  s.source       = { :http => "https://github.com/sparrow-frontend/aliyun-specs/raw/master/zip/utdid.zip" }
   s.vendored_frameworks = 'utdid/UTDID.framework'
 end

@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.platform     = :ios
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ut/5.2.0.16/ut.zip" }
+  s.source       = { :http => "https://github.com/sparrow-frontend/aliyun-specs/raw/master/zip/ut.zip" }
   s.frameworks   = [ "CoreTelephony", "SystemConfiguration" ]
   s.libraries    = [ "z", "resolv", "sqlite3.0" ]
   s.xcconfig     = {	'OTHER_LDFLAGS' => '-ObjC'}
